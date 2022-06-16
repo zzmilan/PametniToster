@@ -1,0 +1,82 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+body 
+    {
+    background-color: rgb(207, 73, 32);
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+        box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header 
+{
+    background-color: #e2a780;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 
+{
+    text-align: left;
+}
+
+.image
+{
+    height: 250px;
+    width: 250px;
+    
+    float: left;
+    padding: 4px;
+}
+
+li 
+{
+    display: inline;
+    float: left;
+}
+     
+a
+{
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+ul 
+{
+    background-color: #000000;
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(207, 73, 32);
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover 
+{
+    background-color: #dddddd;
+}
+li 
+{
+    border-right: 3px solid #000000;
+}
+li:last-child 
+{
+    border-right: none;
+}
